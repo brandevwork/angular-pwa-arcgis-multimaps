@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:/
+Sitemap: https://www.andrewbateman.org/sitemap.xml

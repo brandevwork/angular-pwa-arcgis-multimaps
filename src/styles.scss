@@ -1,1 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  main {
+    padding-top: 0rem;
+    padding-left: 0 !important;
+  }
+
+  nav {
+    border-bottom: 4px solid #2f4e96;
+    background: white;
+    height: 4rem;
+  }
+
+  .nav-left-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .nav-link {
+    color: #0d7765 !important;
+    padding: 8px;
+  }
+
+  .nav-right {
+    @apply ml-2 rounded hover:bg-gray-50;
+  }
+
+  .nav-link-active {
+    color: #2f4e96 !important;
+    font-weight: bold;
+  }
+
+  .ratp-green {
+    background-color: #00aa91;
+  }
+
+  .search-bar, .column-header {
+    background-color: rgb(245, 243, 243);
+    @apply shadow-xl
+  }
+
+  .input-form {
+    background-color: rgb(245, 243, 243);
+  }
+
+  .info-card {
+    background-color: rgb(245, 243, 243);
+    @apply rounded-lg
+  }
+
+  .table-cell {
+    background-color: rgb(245, 243, 243);
+    @apply px-2
+  }
+
+  .table-text-left {
+    @apply text-blue-900 font-bold
+  }
+
+  .table-text-right {
+    @apply text-gray-600 text-xs
+  }
+
+  .column-header {
+    @apply p-2 bg-blue-900
+  }
+}
