@@ -3,6 +3,8 @@
 @import 'tailwindcss/utilities';
 
 @layer components {
+  
+  //template styles
   main {
     padding-top: 0rem;
     padding-left: 0 !important;
@@ -33,8 +35,9 @@
     font-weight: bold;
   }
 
-  .ratp-green {
-    background-color: #00aa91;
+  // app-specific styles
+  .arcgis-blue {
+    background-color: #007AC2;
   }
 
   .search-bar, .column-header {

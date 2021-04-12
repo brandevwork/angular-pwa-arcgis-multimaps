@@ -40,12 +40,13 @@
 
 ## :floppy_disk: Setup
 
-* Install dependencies by running `npm i`
-* Run `ng test` for Jasmine tests carried out in Karma console
-* Run `npm start` for a dev server. Navigate to `http://localhost:4200/`.
-* Run `ng build --prod` for a PWA build folder
-* Run `http-server -p 8080 -c-1 dist/angular-arcgis-multimaps` then select `http://127.0.0.1:8080` to see PWA app running on a dev server (`ng serve` does not work)
-* Run `npm run build:ssr` to create SSR build files
+* Install dependencies by running `npm i` then enter:
+* `ng test` for Jasmine tests carried out in Karma console
+* `npm start` for a dev server. Navigate to `http://localhost:4200/`.
+* `ng build --prod` for a PWA build folder
+* `http-server -p 8080 -c-1 dist/angular-arcgis-multimaps` then select `http://127.0.0.1:8080` to see PWA app running on a dev server (`ng serve` does not work)
+* `npm run build:ssr` to create SSR build files
+* `npm run serve:ssr` to see on a dev server http://localhost:4000 
 * The app will automatically reload if you change any of the source files
 
 ## :flashlight: Testing
@@ -63,12 +64,12 @@
 
 ## :cool: Features
 
-* tba
+* Tailwind purges unused CSS to make a very small styles build bundle
 
 ## :clipboard: Status & To-Do List
 
-* Status: Basic PWA with SSR (needs testing) and Tailwind CSS
-* To-Do: Add content, create web address and add to robots.txt and sitemap.xml
+* Status: Basic PWA with SSR and Tailwind CSS with 100% perfect Lighthouse score
+* To-Do: Create as a separate template repo then add map content, create web address and add to robots.txt and sitemap.xml
 
 ## :clap: Inspiration
 
