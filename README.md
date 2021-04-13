@@ -70,16 +70,18 @@
 
 ## :clipboard: Status & To-Do List
 
-* Status: Basic PWA with SSR and Tailwind CSS with 100% perfect Lighthouse score
-* To-Do: Create as a separate template repo then add map content, create web address and add to robots.txt and sitemap.xml
+* Status: Basic PWA with SSR and Tailwind CSS, common pages done
+* To-Do: Add home page map content, create web address and add to robots.txt and sitemap.xml
 
 ## :clap: Inspiration
 
 * [Youtube: ArcGIS API for JavaScript: Building Apps with Angular](https://www.youtube.com/watch?v=ea4D-qGU0_0)
 * [Youtube: ArcGIS API for JavaScript: Using Frameworks](https://www.youtube.com/watch?v=pYlnlQD882w&list=PLahIW2YFPQd7V8IJ0sTo9kMtqn-sCqs40&index=2)
 * [Esri config example](https://github.com/Esri/application-base-js)
+* [Matt Callahan Blog: Angular + ArcGIS API for JavaScript: A unit testing strategy using dependency injection and the facade pattern](https://seesharpdotnet.wordpress.com/2020/12/03/angular-and-arcgis-api-for-javascript-a-unit-testing-strategy-using-dependency-injection-and-the-facade-pattern/)
+* [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com/en/browse/#d=2&q=sea%20ice)
 * [Dev.to: Setup TailwindCSS in Angular the easy way](https://dev.to/angular/setup-tailwindcss-in-angular-the-easy-way-1i5l)
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com

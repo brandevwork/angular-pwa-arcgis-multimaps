@@ -1,10 +1,21 @@
 <head>
-  <meta
-    name="description"
-    content="Not Found page"
-  />
+  <meta name="description" content="page not found error" />
 </head>
 
-<body>
-  <h1>Not Found Test</h1>
-</body>
+<div class="flex bg-gray-100 h-screen w-full py-32 justify-center">
+  <div class="p-12 text-center max-w-6/12 shadow-xl rounded-lg border">
+    <div class="md:text-3xl text-3xl font-bold pt-10">
+      404: Page non trouvée
+    </div>
+    <div class="text-xl font-normal mt-4">
+      Oh mon Dieu!, la page que vous recherchez n'existe pas.
+    </div>
+    <div class="mt-6 flex justify-center h-12 relative">
+      <div
+        class="flex shadow-md font-medium absolute py-2 px-4 text-green-100 cursor-pointer bg-green-600 rounded text-lg tr-mt svelte-jqwywd"
+      >
+        <a href="/">Aller à la page d'accueil</a>
+      </div>
+    </div>
+  </div>
+</div>

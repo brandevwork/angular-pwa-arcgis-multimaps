@@ -1,6 +1,98 @@
 <head>
-  <meta
-    name="description"
-    content="Contact page"
+  <meta name="description" content="Shows contact details of author" />
+  <link
+    rel="prefetch"
+    as="document"
+    src="https://api.github.com/users/andrewjbateman"
+    Set-Cookie:
+    CookieName="CookieValue;"
+    SameSite="Lax;"
+  />
+  <link
+    rel="prefetch"
+    as="document"
+    src="https://andrewbateman.org/contact"
+    Set-Cookie:
+    CookieName="CookieValue;"
+    SameSite="Lax;"
   />
 </head>
+
+<div class="min-h-screen min-w-screen arcgis-blue">
+  <div
+    class="flex justify-center w-full h-screen pt-10 mx-auto"
+    *ngIf="user$ | async as user"
+  >
+    <div class="max-w-xs">
+      <div class="shadow-xl info-card">
+        <div class="px-2 pt-5 photo-wrapper">
+          <img
+            class="w-40 h-40 mx-auto rounded-full"
+            width="40px"
+            height="40px"
+            src="../../../assets/contact.svg"
+            alt="Image of author at pc"
+            loading="lazy"
+          />
+        </div>
+        <div class="p-2">
+          <h3
+            class="pb-1 text-xl font-medium leading-8 text-center text-blue-900"
+          >
+            <span class="text-xs italic text-gray-600">App par</span>
+            {{ user.name }}
+          </h3>
+          <div class="text-center table-text-left">
+            <p class="px-2 pb-1 text-xs">
+              <span>{{ user.bio | slice: 0:42 }} </span>
+              {{ user.bio | slice: 42 }}
+            </p>
+          </div>
+          <table class="self-center mx-auto my-2 text-xs">
+            <tbody>
+              <tr>
+                <td class="px-2">
+                  <span class="font-bold text-blue-900">Github Repos:</span>
+                </td>
+                <td class="px-2 text-xs text-gray-600">
+                  {{ user.public_repos }}
+                </td>
+              </tr>
+              <tr>
+                <td class="px-2">
+                  <span class="font-bold text-blue-900">Emplacement:</span>
+                </td>
+                <td class="px-2 text-xs text-gray-600">France, Espagne</td>
+              </tr>
+              <tr>
+                <td class="px-2">
+                  <span class="font-bold text-blue-900">Mis à Jour:</span>
+                </td>
+                <td class="px-2 text-xs text-gray-600">
+                  {{ user.updated_at | date }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="my-3 text-center">
+            <a
+              class="mr-5 text-xs italic font-medium text-indigo-600 hover:underline hover:text-indigo-800"
+              href="https://github.com/AndrewJBateman"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Voir mon profil Github</a
+            >
+            <a
+              class="text-xs italic font-medium text-indigo-600 hover:underline hover:text-indigo-800"
+              href="https://andrewbateman.org/contact"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Envoyer un message</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
