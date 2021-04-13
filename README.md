@@ -20,6 +20,7 @@
 
 ## :books: General info
 
+* Common pages: About - info. about the app, Contact - info. about the author
 * [Progressive Web App (PWA)](https://firt.dev/pwa-2021/) capability added. The PWA is still evolving and I believe worth including in an app but needs to be kept up to date
 * [ArcGIS API for Javascript CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn) link in `esri-map` component.
 * [ArcGIS for Developers](https://developers.arcgis.com/) offers a full suite of tools and resources to build mapping and analytics solutions. Use ArcGIS APIs to create location-based applications for web, desktop, and mobile devices.
@@ -41,7 +42,6 @@
 ## :floppy_disk: Setup
 
 * Install dependencies by running `npm i` then enter:
-* `ng test` for Jasmine tests carried out in Karma console
 * `npm start` for a dev server. Navigate to `http://localhost:4200/`.
 * `ng build --prod` for a PWA build folder
 * `http-server -p 8080 -c-1 dist/angular-arcgis-multimaps` then select `http://127.0.0.1:8080` to see PWA app running on a dev server (`ng serve` does not work)
@@ -51,8 +51,9 @@
 
 ## :flashlight: Testing
 
-* Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-* Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* `ng lint` to lint all files
+* `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## :computer: Code Examples
 
@@ -65,6 +66,7 @@
 ## :cool: Features
 
 * Tailwind purges unused CSS to make a very small styles build bundle
+* 100% perfect Lighthouse score for About page
 
 ## :clipboard: Status & To-Do List
 

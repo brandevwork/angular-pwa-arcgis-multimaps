@@ -17,8 +17,7 @@
   }
 
   .nav-left-icon {
-    height: 50px;
-    width: 50px;
+    @apply mr-2;
   }
 
   .nav-link {
