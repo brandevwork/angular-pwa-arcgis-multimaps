@@ -38,6 +38,7 @@
 * [Angular Server-side rendering (SSR) with Angular Universal](https://angular.io/guide/universal)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle async operations using observables
+* [@arcgis/core v4.18]()
 
 ## :floppy_disk: Setup
 
@@ -81,6 +82,7 @@
 * [Matt Callahan Blog: Angular + ArcGIS API for JavaScript: A unit testing strategy using dependency injection and the facade pattern](https://seesharpdotnet.wordpress.com/2020/12/03/angular-and-arcgis-api-for-javascript-a-unit-testing-strategy-using-dependency-injection-and-the-facade-pattern/)
 * [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com/en/browse/#d=2&q=sea%20ice)
 * [Dev.to: Setup TailwindCSS in Angular the easy way](https://dev.to/angular/setup-tailwindcss-in-angular-the-easy-way-1i5l)
+* [Free svg icons](https://www.iconfinder.com/search/?q=map&price=free)
 
 ## :envelope: Contact
 

@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "copy:arcgis": "ncp ./node_modules/@arcgis/core/assets ./src/assets",
     "dev:ssr": "ng run angular-arcgis-multimaps:serve-ssr",
     "serve:ssr": "node dist/angular-arcgis-multimaps/server/main.js",
     "build:ssr": "ng build --prod && ng run angular-arcgis-multimaps:server:production",
