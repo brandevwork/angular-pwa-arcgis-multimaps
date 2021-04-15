@@ -38,7 +38,7 @@
 * [Angular Server-side rendering (SSR) with Angular Universal](https://angular.io/guide/universal)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle async operations using observables
-* [@arcgis/core v4.18]()
+* [@arcgis/core v4.18](https://www.npmjs.com/package/@arcgis/core) - the version is significant because ES modules were added
 
 ## :floppy_disk: Setup
 
@@ -71,7 +71,7 @@
 
 ## :clipboard: Status & To-Do List
 
-* Status: Basic PWA with SSR and Tailwind CSS, common pages done
+* Status: Basic PWA with SSR and Tailwind CSS, common pages done, home page basic esri map display works
 * To-Do: Add home page map content, create web address and add to robots.txt and sitemap.xml
 
 ## :clap: Inspiration

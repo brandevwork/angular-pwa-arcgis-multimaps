@@ -41,6 +41,9 @@ yarn-error.log
 testem.log
 /typings
 
+# @arcgis/core assets
+/src/assets/esri
+
 # System Files
 .DS_Store
 Thumbs.db
