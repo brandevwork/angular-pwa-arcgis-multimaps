@@ -1,11 +1,11 @@
-# Angular Arcgis Multimaps
+# Angular ArcGIS Multimaps
 
-* Angular multi-page app using RxJS operators and ArcGIS API mapping solutions from [Esri](https://www.esri.com/en-us/home) to display maps
+* Angular multi-page app using RxJS operators and ArcGIS API mapping  from [Esri](https://www.esri.com/en-us/home) to display map
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular RxJS ArcGIS](#zap-angular-rxjs-arcgis)
+* [:zap: Angular ArcGIS Multimaps](#zap-angular-arcgis-multimaps)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -20,6 +20,7 @@
 
 ## :books: General info
 
+* Basic PWA with SSR and Tailwind CSS, common pages done, home page basic esri map display
 * Common pages: About - info. about the app, Contact - info. about the author
 * [Progressive Web App (PWA)](https://firt.dev/pwa-2021/) capability added. The PWA is still evolving and I believe worth including in an app but needs to be kept up to date
 * [ArcGIS API for Javascript CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn) link in `esri-map` component.
@@ -29,25 +30,27 @@
 
 ## :camera: Screenshots
 
-![Example screenshot](./img/map.jpg)
+![Example screenshot](./imgs/map.png)
+![Example screenshot](./imgs/about.png)
+![Example screenshot](./imgs/contact.png)
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
-* [Angular Service Workers](https://angular.io/guide/service-worker-getting-started) used to make this a Progressive Web App (PWA)
+* [Angular v13](https://angular.io/)
+* [Angular Service Workers v13](https://angular.io/guide/service-worker-getting-started) used to make this a Progressive Web App (PWA)
 * [Angular Server-side rendering (SSR) with Angular Universal](https://angular.io/guide/universal)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
-* [RxJS Library v6](https://angular.io/guide/rx-library) used to handle async operations using observables
-* [@arcgis/core v4.18](https://www.npmjs.com/package/@arcgis/core) - the version is significant because ES modules were added
+* [RxJS Library v7](https://angular.io/guide/rx-library) used to handle async operations using observables
+* [@arcgis/core v4.22](https://www.npmjs.com/package/@arcgis/core) - the version is significant because ES modules were added after v4.18
 
 ## :floppy_disk: Setup
 
 * Install dependencies by running `npm i` then enter:
 * `npm start` for a dev server. Navigate to `http://localhost:4200/`.
-* `ng build --prod` for a PWA build folder
-* `http-server -p 8080 -c-1 dist/angular-arcgis-multimaps` then select `http://127.0.0.1:8080` to see PWA app running on a dev server (`ng serve` does not work)
+* `npm run build` for a PWA build folder (not working)
+* `http-server -p 8080 -c-1 dist/angular-arcgis-multimaps` then select `http://127.0.0.1:8080` to see PWA app running on a dev server (`ng serve` does not work) (not working)
 * `npm run build:ssr` to create SSR build files
-* `npm run serve:ssr` to see on a dev server http://localhost:4000 
+* `npm run serve:ssr` to see on a dev server http://localhost:4000
 * The app will automatically reload if you change any of the source files
 
 ## :flashlight: Testing
@@ -71,14 +74,15 @@
 
 ## :clipboard: Status & To-Do List
 
-* Status: Basic PWA with SSR and Tailwind CSS, common pages done, home page basic esri map display works
-* To-Do: Add home page map content, create web address and add to robots.txt and sitemap.xml
+* Status: Working dev
+* To-Do: Fix PWA & SSR or replace. Add home page map content, create web address and add to robots.txt and sitemap.xml
 
 ## :clap: Inspiration
 
 * [Youtube: ArcGIS API for JavaScript: Building Apps with Angular](https://www.youtube.com/watch?v=ea4D-qGU0_0)
 * [Youtube: ArcGIS API for JavaScript: Using Frameworks](https://www.youtube.com/watch?v=pYlnlQD882w&list=PLahIW2YFPQd7V8IJ0sTo9kMtqn-sCqs40&index=2)
 * [Esri config example](https://github.com/Esri/application-base-js)
+* [ArcGIS API docs](https://developers.arcgis.com/javascript/latest/install-and-set-up/)
 * [Matt Callahan Blog: Angular + ArcGIS API for JavaScript: A unit testing strategy using dependency injection and the facade pattern](https://seesharpdotnet.wordpress.com/2020/12/03/angular-and-arcgis-api-for-javascript-a-unit-testing-strategy-using-dependency-injection-and-the-facade-pattern/)
 * [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com/en/browse/#d=2&q=sea%20ice)
 * [Dev.to: Setup TailwindCSS in Angular the easy way](https://dev.to/angular/setup-tailwindcss-in-angular-the-easy-way-1i5l)
