@@ -1,13 +1,12 @@
 <head>
-  <meta
-    name="description"
-    content="Home page shows a map view"
-  />
+  <meta name="description" content="Home page shows a map view" />
   X-Frame-Options="SAMEORIGIN"
 </head>
 
-<div class="min-h-screen min-w-screen arcgis-blue">
-  <div class="w-full px-4 py-4">
-    <div id="viewDiv"></div>
+<div class="min-h-screen min-w-screen">
+  <div class="w-full p-4">
+    <div #mapView class="mapView"></div>
+    <p class="mapDescr">Esri-WebMap to show accidental deaths by state. Marker size = total number of accidental deaths, color = rate.</p>
+    <p class="mapDescr">Bright red =more accidental deaths per 100,000 people, dark green = fewer.</p>
   </div>
 </div>

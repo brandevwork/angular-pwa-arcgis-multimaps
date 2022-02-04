@@ -1,6 +1,13 @@
-#viewDiv{
-  height: 400px;
-  width: 400px;
-  margin: auto auto;
-  padding-top: 20px;
+@import "https://js.arcgis.com/4.22/@arcgis/core/assets/esri/themes/light/main.css";
+
+.mapView {
+  height: 500px;
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.mapDescr {
+  max-width: 800px;
+  margin: auto;
 }
