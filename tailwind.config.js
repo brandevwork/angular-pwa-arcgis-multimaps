@@ -6,7 +6,7 @@ module.exports = {
       './src/**/*.{html,ts}',
     ]
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media",
   theme: {
     extend: {},
   },
