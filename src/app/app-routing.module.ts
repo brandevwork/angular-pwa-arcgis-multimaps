@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './components/home/home.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NotFoundComponent } from './@shell/ui/not-found/not-found.component';
 
 const routes: Routes = [
   {
@@ -12,13 +12,21 @@ const routes: Routes = [
   {
     path: 'about',
     loadChildren: () =>
-      import('./components/about/about.module').then((mod) => mod.AboutModule),
+      import('./pages/about/about.module').then((mod) => mod.AboutModule),
   },
   {
     path: 'contact',
     loadChildren: () =>
-      import('./components/contact/contact.module').then(
+      import('./pages/contact/pages/contact/contact.module').then(
         (mod) => mod.ContactModule
+      ),
+  },
+
+  {
+    path: 'location',
+    loadChildren: () =>
+      import('./pages/location/pages/location/location.module').then(
+        (mod) => mod.LocationModule
       ),
   },
   { path: '**', component: NotFoundComponent },

@@ -5,9 +5,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { NavComponent } from './components/nav/nav.component';
-import { HomeComponent } from './components/home/home.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
+import { NavComponent } from './@shell/ui/nav/nav.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NotFoundComponent } from './@shell/ui/not-found/not-found.component';
 import { environment } from '../environments/environment';
 
 @NgModule({
