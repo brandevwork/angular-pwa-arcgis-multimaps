@@ -1,0 +1,14 @@
+<head>
+  <meta name="description" content="Home page shows a map view" />
+  X-Frame-Options="SAMEORIGIN"
+</head>
+
+<div class="min-h-screen min-w-screen">
+  <div class="w-full p-4">
+    <div #mapView class="locationMap"></div>
+    <p class="mapDescr">
+      <span class="descr-bold">User location:</span> Latitude: <span class="descr-bold">{{ userPosition.lat }}</span>, Longitude:
+      <span class="descr-bold">{{ userPosition.lon }}</span>
+    </p>
+  </div>
+</div>

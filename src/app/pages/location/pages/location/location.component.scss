@@ -1,0 +1,16 @@
+.locationMap {
+  height: 480px;
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+
+.mapDescr {
+  max-width: 800px;
+  margin: auto;
+
+  .descr-bold {
+    color: darkblue;
+    font-weight: bold;
+  }
+}
