@@ -20,8 +20,12 @@
 
 ## :books: General info
 
-* Basic PWA with SSR and Tailwind CSS, common pages done, home page basic esri map display
-* Common pages: About - info. about the app, Contact - info. about the author
+* Basic PWA with SSR and Tailwind CSS
+* esri-map view refactored to use @arcgis/core mapView and WebMap with a GraphicsLayer to allow sketching
+* WebView map specified using a [portalItem id](https://developers.arcgis.com/javascript/latest/api-reference/esri-WebMap.html#portalItem)
+* About page - info. about the app
+* Contact page - info. about the author
+* Location page uses sessionStorage to store user coordinates and these are lost the moment the browser is closed
 * [Progressive Web App (PWA)](https://firt.dev/pwa-2021/) capability added. The PWA is still evolving and I believe worth including in an app but needs to be kept up to date
 * [ArcGIS API for Javascript CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn) link in `esri-map` component.
 * [ArcGIS for Developers](https://developers.arcgis.com/) offers a full suite of tools and resources to build mapping and analytics solutions. Use ArcGIS APIs to create location-based applications for web, desktop, and mobile devices.
@@ -33,6 +37,7 @@
 ![Example screenshot](./imgs/map.png)
 ![Example screenshot](./imgs/about.png)
 ![Example screenshot](./imgs/contact.png)
+![Example screenshot](./imgs/location.png)
 
 ## :signal_strength: Technologies
 
@@ -41,7 +46,7 @@
 * [Angular Server-side rendering (SSR) with Angular Universal](https://angular.io/guide/universal)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to handle async operations using observables
-* [@arcgis/core v4.22](https://www.npmjs.com/package/@arcgis/core) - the version is significant because ES modules were added after v4.18
+* [@arcgis/core v4.22.2](https://www.npmjs.com/package/@arcgis/core) - the version is significant because ES modules were added after v4.18
 
 ## :floppy_disk: Setup
 
@@ -87,6 +92,7 @@
 * [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com/en/browse/#d=2&q=sea%20ice)
 * [Dev.to: Setup TailwindCSS in Angular the easy way](https://dev.to/angular/setup-tailwindcss-in-angular-the-easy-way-1i5l)
 * [Free svg icons](https://www.iconfinder.com/search/?q=map&price=free)
+* [StackOverflow: ngIf - Expression has changed after it was checked](https://stackoverflow.com/questions/43513421/ngif-expression-has-changed-after-it-was-checked)
 
 ## :envelope: Contact
 
