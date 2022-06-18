@@ -5,7 +5,7 @@
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular ArcGIS Multimaps](#zap-angular-arcgis-multimaps)
+* [Angular ArcGIS Multimaps](#angular-arcgis-multimaps)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -55,7 +55,7 @@
 * `npm run build` for a PWA build folder (not working)
 * `http-server -p 8080 -c-1 dist/angular-arcgis-multimaps` then select `http://127.0.0.1:8080` to see PWA app running on a dev server (`ng serve` does not work) (not working)
 * `npm run build:ssr` to create SSR build files
-* `npm run serve:ssr` to see on a dev server http://localhost:4000
+* `npm run serve:ssr` to see on a dev server `http://localhost:4000`
 * The app will automatically reload if you change any of the source files
 
 ## :flashlight: Testing
