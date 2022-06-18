@@ -184,7 +184,6 @@
       }
     }
   },
-  "defaultProject": "angular-arcgis-multimaps",
   "cli": {
     "analytics": "ee3e79af-cc3c-4fb0-a1c0-fe3261817bbf"
   }
