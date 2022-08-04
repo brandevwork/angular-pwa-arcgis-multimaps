@@ -51,9 +51,6 @@ export class LocationComponent implements OnInit, AfterViewInit {
       }
 
       this.userPosition = { lat: latStr, lon: lonStr };
-
-      console.log('userPos: ', this.userPosition);
-
       this.esriMap = new Map({
         basemap: 'streets-vector',
       });
