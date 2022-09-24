@@ -20,6 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": ["luxon"],
             "outputPath": "dist/angular-arcgis-multimaps/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -36,11 +37,8 @@
                 "input": "node_modules/@arcgis/core/assets",
                 "output": "/assets/"
               }
-              
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "scripts": [],
             "vendorChunk": true,
             "extractLicenses": false,
@@ -113,9 +111,7 @@
               "src/sitemap.xml",
               "src/robots.txt"
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         },
@@ -173,9 +169,7 @@
           "options": {
             "browserTarget": "angular-arcgis-multimaps:build:production",
             "serverTarget": "angular-arcgis-multimaps:server:production",
-            "routes": [
-              "/"
-            ]
+            "routes": ["/"]
           },
           "configurations": {
             "production": {}
