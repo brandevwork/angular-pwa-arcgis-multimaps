@@ -46,7 +46,7 @@
 * [Angular Server-side rendering (SSR) with Angular Universal](https://angular.io/guide/universal)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to handle async operations using observables
-* [@arcgis/core v4.23.7](https://www.npmjs.com/package/@arcgis/core) - the version is significant because ES modules were added after v4.18
+* [@arcgis/core v4.24.7](https://www.npmjs.com/package/@arcgis/core) - the version is significant because ES modules were added after v4.18
 
 ## :floppy_disk: Setup
 
@@ -80,7 +80,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: Working dev
-* To-Do: Fix PWA & SSR or replace. Add home page map content, create web address and add to robots.txt and sitemap.xml
+* To-Do: Home page: change map, Location page: Add user location pin if possible.Fix PWA & SSR or replace. Add home page map content, create web address and add to robots.txt and sitemap.xml
 
 ## :clap: Inspiration
 
