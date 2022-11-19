@@ -41,8 +41,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v14](https://angular.io/)
-* [Angular Service Workers v14](https://angular.io/guide/service-worker-getting-started) used to make this a Progressive Web App (PWA)
+* [Angular v15](https://angular.io/)
+* [Angular Service Workers v15](https://angular.io/guide/service-worker-getting-started) used to make this a Progressive Web App (PWA)
 * [Angular Server-side rendering (SSR) with Angular Universal](https://angular.io/guide/universal)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to handle async operations using observables
