@@ -12,11 +12,9 @@
   * [:signal_strength: Technologies](#signal_strength-technologies)
   * [:floppy_disk: Setup](#floppy_disk-setup)
   * [:flashlight: Testing](#flashlight-testing)
-  * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
-  * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
@@ -64,14 +62,6 @@
 * `ng lint` to lint all files
 * `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## :computer: Code Examples
-
-* extract from ``
-
-```typescript
-
-```
-
 ## :cool: Features
 
 * Tailwind purges unused CSS to make a very small styles build bundle
@@ -93,7 +83,3 @@
 * [Dev.to: Setup TailwindCSS in Angular the easy way](https://dev.to/angular/setup-tailwindcss-in-angular-the-easy-way-1i5l)
 * [Free svg icons](https://www.iconfinder.com/search/?q=map&price=free)
 * [StackOverflow: ngIf - Expression has changed after it was checked](https://stackoverflow.com/questions/43513421/ngif-expression-has-changed-after-it-was-checked)
-
-## :envelope: Contact
-
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
